@@ -62,22 +62,19 @@
 
         <div class="col-md-4">
           <div class="radio">
-            <h4>On the weekends, what are you usually doing?</h4>
+            <h4>When you are in a difficult situation, how do you handle?</h4>
             <label>
-              <input type="radio" name="weekends" value="social" checked>
-              Dressed up and hanging out at a social gathering with a lot of people
+              <input type="radio" name="problemSolve" value="nap" checked>I take a nap
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="weekends" value="hermit">
-              At home, in bed catching up on a book or tv series
+              <input type="radio" name="problemSolve" value="invincible">Nothing is difficult!
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="weekends" value="nature">
-              Getting sweaty and dirty in the woods, not caring who's watching
+              <input type="radio" name="problemSolve" value="help">I ask for help
             </label>
           </div>
         </div>
@@ -96,18 +93,32 @@
         </div>
 
         <div class="col-md-6">
-          <h4>When you are in a difficult situation, how do you handle?</h4>
-          <select class="form-control" id="problemSolve">
+          <h4>On the weekends, what are you usually doing?</h4>
+          <select class="form-control" id="weekends">
             <option value="default"></option>
-            <option value="panic">I panic!</option>
-            <option value="help">I ask for help</option>
-            <option value="invincible">Nothing is difficult!</option>
-            <option value="nap">I take a nap</option>
+            <option value="social">Dressed up and hanging out at a social gathering with a lot of people</option>
+            <option value="hermit">At home, in bed catching up on a book or tv series</option>
+            <option value="nature">Getting sweaty and dirty in the woods, not caring who's watching</option>
           </select>
         </div>
       </div>
 <!--Submit button  -->
       <button id="submit" class="btn btn-primary">Suggest</button>
+<!--Possible Results -->
+      <div id="ruby">
+        <img src="img/ruby.jpg">
+        <p>You should go with Ruby.</p>
+      </div>
+
+      <div id="java">
+        <img src="img/java.jpg">
+        <p>You should learn Java.</p>
+      </div>
+
+      <div id="php">
+        <img src="img/php.jpg">
+        <p>PHP is a great match for you.</p>
+      </div>
 
     </div>
   </body>
