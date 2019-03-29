@@ -12,70 +12,76 @@
       <div class="page-header">
         <h1>Track Suggester</h1>
       </div>
-        <h2>What programming language should I learn?</h2>
+        <h2>What programming language should you learn?</h2>
 <!--Survey questions begin here  -->
       <div class="row">
 
         <div class="col-md-4">
-          <div class="radio">
-            <h4>What side of your brain would you say you use more?</h4>
-            <label>
-              <input type="radio" name="hemisphere" value="left" checked>
-              Left
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="hemisphere" value="right">
-              Right
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="hemisphere" value="both">
-              Both about the same
-            </label>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="radio">
-            <h4>Are you more of a cat person or a dog person?</h4>
-            <label>
-              <input type="radio" name="animal" value="cat" checked>
-              Cat
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="animal" value="dog">
-              Dog
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="animal" value="neither">
-              I don't like either
-            </label>
+          <div class="well">
+            <div class="radio">
+              <h4>What side of your brain would you say you use more?</h4>
+              <label>
+                <input type="radio" name="hemisphere" value="left" checked>
+                Left
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="hemisphere" value="right">
+                Right
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="hemisphere" value="both">
+                Both about the same
+              </label>
+            </div>
           </div>
         </div>
 
         <div class="col-md-4">
-          <div class="radio">
-            <h4>When you are in a difficult situation, how do you handle?</h4>
-            <label>
-              <input type="radio" name="problemSolve" value="nap" checked>I take a nap
-            </label>
+          <div class="well">
+            <div class="radio">
+              <h4>Are you more of a cat person or a dog person?</h4>
+              <label>
+                <input type="radio" name="animal" value="cat" checked>
+                Cat
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="animal" value="dog">
+                Dog
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="animal" value="neither">
+                I don't like either
+              </label>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="problemSolve" value="invincible">Nothing is difficult!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="problemSolve" value="help">I ask for help
-            </label>
+        </div>
+
+        <div class="col-md-4">
+          <div class="well">
+            <div class="radio">
+              <h4>When you are in a difficult situation, how do you handle?</h4>
+              <label>
+                <input type="radio" name="problemSolve" value="nap" checked>I take a nap
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="problemSolve" value="invincible">Nothing is difficult!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="problemSolve" value="help">I ask for help
+              </label>
+            </div>
           </div>
         </div>
       </div>
@@ -105,27 +111,28 @@
 <!--Submit button  -->
       <button id="submit" class="btn btn-primary">Suggest</button>
 <!--Possible Results -->
-      <div id="display">
-      </div>
+      <!-- <div id="display">
+      </div> -->
 
       <div id="ruby">
-        <img src="img/ruby.jpg">
+        <img class="resize" src="img/ruby.jpg">
         <p>You should go with Ruby.</p>
       </div>
 
       <div id="java">
-        <img src="img/java.jpg">
+        <img class="resize" src="img/java.jpg">
         <p>You should learn Java.</p>
       </div>
 
       <div id="php">
-        <img src="img/php.jpg">
+        <img class="resize" src="img/php.jpg">
         <p>PHP is a great match for you.</p>
       </div>
 
       <div id="intro">
-        <img src="img/intro.jpg">
+        <img class="resize" src="img/intro.jpg">
         <p>It's hard to say based off of your results. It may be beneficial to take an Intro to Programming course before you master your first language.</p>
+      </div>
 
     </div>
   </body>

@@ -1,3 +1,27 @@
 #ruby, #java, #php, #intro {
   display: none;
 }
+
+img.resize {
+  width: 200px;
+  height: auto;
+}
+
+button {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+body {
+  background-color: #dbbfff;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+h2 {
+  font-family: fantasy;
+  font-style: italic;
+  color: #e55c54;
+}
