@@ -1,4 +1,4 @@
-$(document).ready(function(event) {
+$(document).ready(function() {
   $("#submit").click(function() {
     var brain = $("input:radio[name=hemisphere]:checked").val();
     var animal = $("input:radio[name=animal]:checked").val();
@@ -8,6 +8,7 @@ $(document).ready(function(event) {
 
     if ((brain === 'left' || brain === 'both') && (animal === 'cat' || animal === 'neither')) {
       if ((situation === 'invincible' || situation === 'help') && (dream === 'extinction' || dream === 'space') && (freetime === 'hermit')) {
+        $("#display").text("Ruby");
         $("#ruby").show();
         $("#java").hide();
         $("#php").hide();
@@ -40,5 +41,4 @@ $(document).ready(function(event) {
       $("#php").hide();
     }
   });
-  event.preventDefault();
 });
